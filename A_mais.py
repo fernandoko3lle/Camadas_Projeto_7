@@ -44,7 +44,7 @@ def main():
     # Parâmetros do filtro
     order = 6
     fs = freqDeAmostragem       # taxa de amostragem, Hz
-    cutoff = 1000    # frequência de corte desejada do filtro, Hz
+    cutoff = 500    # frequência de corte desejada do filtro, Hz
 
     # Função para o design do filtro passa-baixa Butterworth
     def butter_lowpass(cutoff, fs, order=5):
